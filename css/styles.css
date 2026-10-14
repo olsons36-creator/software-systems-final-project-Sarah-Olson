@@ -1,0 +1,57 @@
+/* Demonstrate all of the following styling changes:
+•	color
+•	background-color
+•	font-family
+•	font-size
+•	width
+•	height
+Additionally demonstrate at least one of the following:
+•	margin
+•	padding
+•	border */
+
+/* resetting the css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ol, ul, li{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body{
+    font-family: Arial;
+}
+
+nav{
+    background-color: midnightblue;
+    height: 40px;
+    margin: 0%;
+    
+}
+
+
+nav li{
+    display: inline-block;
+    list-style: none;
+    height: 40px;
+    font-size: 120%;
+}
+
+nav a{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 10px 0 10px;
+    color: white;
+}
+
+div{
+    margin: 10px;
+}
+
+img {
+    height: 30%;
+    width: 40%;
+}
