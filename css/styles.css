@@ -51,7 +51,65 @@ div{
     margin: 10px;
 }
 
-img {
-    height: 30%;
-    width: 40%;
+
+.hidden{
+    display: none;
+}
+
+.answer{
+    padding: 0 10px 0 10px;
+    border: 10px;
+    
+}
+
+.true{
+    color: green;
+}
+
+.false{
+    color: red;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+}
+
+main{
+    width: 50%;
+}
+
+aside{
+    width: 50%;
+    text-align: center;
+    background-color: lightblue;
+}
+
+img{
+    width: 50%;
+    height: 40%;
+}
+
+#img{
+    width: 30%;
+    height: 50%;
+}
+
+#notes{
+    display: flex;
+    flex-direction: row;
+}
+
+#n1{
+    width: 100%;
+}
+
+#n2{
+    width: 100%;
+
+}
+
+footer{
+    background-color: midnightblue;
+    color: white;
 }
